@@ -1,35 +1,38 @@
 # Manager-record-Express
 
-Micro service made with Node.js 
+# Micro service made with Node.js 
 There is some endpoints to create, update and read the registers of records on database MongoDB
 
-pull request 
-Mocha = [https://mochajs.org/]
 Chai = [http://chaijs.com/]
 
 
+# initialize mongodb
+* C:\Program Files\MongoDB\Server\6.0\bin> mongod.exe --dbpath c:\data\db
+* C:\Program Files\MongoDB\Server\6.0\bin> mongo
+and then the command below its just to you know if is mongo running
+* show dbs
 
-#npm install --save express body-parser morgan
 
-#npm install -g nodemon
+# To RUN the aplication
 
-#npm install --save mongoose crypto 
+* npm install --save express body-parser morgan
+
+* npm install -g nodemon
+
+* npm install --save mongoose crypto 
 
 //to run the app
-nodemon
+* nodemon
 
 
-//initialize mongodb
-C:\Program Files\MongoDB\Server\6.0\bin>mongod.exe --dbpath c:\data\db
-C:\Program Files\MongoDB\Server\6.0\bin>mongo
-after you rigth "show dbs" so you knw if is mongo running
 
-//test automatization
+# to RUN TESTS 
+framework Mocha = [https://mochajs.org/]
+* npm install -g mocha
 
-#npm install -g mocha
+framework Chai = [http://chaijs.com/]
+* npm install --save-dev chai chai-http
 
-#npm install --save-dev chai chai-http
-
-//to run the tests 
-mocha
+to run the tests 
+* mocha
 
